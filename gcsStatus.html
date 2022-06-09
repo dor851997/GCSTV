@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>GCS Status</title>
+</head>
+<style>
+    select{
+        width: 30%;
+    }
+</style>
+<header>
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="gcsStatus.html">GCS Status</a></li>
+        <li><a href="Shift-planning.html">Shift planning</a></li>
+        <li><a href="weather.html">Weather</a></li>
+    </ul>
+    <img src="images/HCT logo.jpeg" alt="HCT-logo">
+    <h1>GCS Status</h1>
+    <h2><span id='date-time'>now</span>.</h2>
+    <script>
+        var dt = new Date();
+        document.getElementById('date-time').innerHTML=dt;
+    </script>
+</header>
+<body>
+    <table class="tableClass">
+        <tr>
+            <td><button id="btn1" class="myButton" onclick="BonClick('btn1')">GCS 1</button>
+                <select>
+                    <option value="0"></option>
+                    <option value="qc1">qc1</option>
+                    <option value="qc2">qc2</option>
+                    <option value="qc3">qc3</option>
+                    <option value="qc4">qc4</option>
+                </select>
+                <select>
+                    <option value="0"></option>
+                    <option value="Let">Let</option>
+                    <option value="MSC BELLE">MSC BELLE</option>
+                    <option value="YangMing">YangMing</option>
+                    <option value="Not available">Not available</option>
+                </select>
+            </td>
+            <td><button id="btn2" class="myButton" onclick="BonClick('btn2')">GCS 2</button>
+                <select>
+                    <option value="0"></option>
+                    <option value="qc1">qc1</option>
+                    <option value="qc2">qc2</option>
+                    <option value="qc3">qc3</option>
+                    <option value="qc4">qc4</option>
+                </select>
+                <select>
+                    <option value="0"></option>
+                    <option value="Let">Let</option>
+                    <option value="MSC BELLE">MSC BELLE</option>
+                    <option value="YangMing">YangMing</option>
+                    <option value="Not available">Not available</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><button id="btn3" class="myButton" onclick="BonClick('btn3')">GCS 3</button>
+                <select>
+                    <option value="0"></option>
+                    <option value="qc1">qc1</option>
+                    <option value="qc2">qc2</option>
+                    <option value="qc3">qc3</option>
+                    <option value="qc4">qc4</option>
+                </select>
+                <select>
+                    <option value="0"></option>
+                    <option value="Let">Let</option>
+                    <option value="MSC BELLE">MSC BELLE</option>
+                    <option value="YangMing">YangMing</option>
+                    <option value="Not available">Not available</option>
+                </select>
+            </td>
+            <td><button id="btn4" class="myButton" onclick="BonClick('btn4')">GCS 4</button>
+                <select>
+                    <option value="0"></option>
+                    <option value="qc1">qc1</option>
+                    <option value="qc2">qc2</option>
+                    <option value="qc3">qc3</option>
+                    <option value="qc4">qc4</option>
+                </select>
+                <select>
+                    <option value="0"></option>
+                    <option value="Let">Let</option>
+                    <option value="MSC BELLE">MSC BELLE</option>
+                    <option value="YangMing">YangMing</option>
+                    <option value="Not available">Not available</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><button id="btn5" class="myButton" onclick="BonClick('btn5')">GCS 5</button>
+                <select>
+                    <option value="0"></option>
+                    <option value="qc1">qc1</option>
+                    <option value="qc2">qc2</option>
+                    <option value="qc3">qc3</option>
+                    <option value="qc4">qc4</option>
+                </select>
+                <select>
+                    <option value="0"></option>
+                    <option value="Let">Let</option>
+                    <option value="MSC BELLE">MSC BELLE</option>
+                    <option value="YangMing">YangMing</option>
+                    <option value="Not available">Not available</option>
+                </select>
+            </td>
+            <td><button id="btn6" class="myButton" onclick="BonClick('btn6')">GCS 6</button>
+                <select>
+                    <option value="0"></option>
+                    <option value="qc1">qc1</option>
+                    <option value="qc2">qc2</option>
+                    <option value="qc3">qc3</option>
+                    <option value="qc4">qc4</option>
+                </select>
+                <select>
+                    <option value="0"></option>
+                    <option value="Let">Let</option>
+                    <option value="MSC BELLE">MSC BELLE</option>
+                    <option value="YangMing">YangMing</option>
+                    <option value="Not available">Not available</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><button id="btn7" class="myButton" onclick="BonClick('btn7')">GCS 7</button>
+                <select>
+                    <option value="0"></option>
+                    <option value="qc1">qc1</option>
+                    <option value="qc2">qc2</option>
+                    <option value="qc3">qc3</option>
+                    <option value="qc4">qc4</option>
+                </select>
+                <select>
+                    <option value="0"></option>
+                    <option value="Let">Let</option>
+                    <option value="MSC BELLE">MSC BELLE</option>
+                    <option value="YangMing">YangMing</option>
+                    <option value="Not available">Not available</option>
+                </select>
+            </td>
+            <td><button id="btn8" class="myButton" onclick="BonClick('btn8')">GCS 8</button>
+                <select>
+                    <option value="0"></option>
+                    <option value="qc1">qc1</option>
+                    <option value="qc2">qc2</option>
+                    <option value="qc3">qc3</option>
+                    <option value="qc4">qc4</option>
+                </select>
+                <select>
+                    <option value="0"></option>
+                    <option value="Let">Let</option>
+                    <option value="MSC BELLE">MSC BELLE</option>
+                    <option value="YangMing">YangMing</option>
+                    <option value="Not available">Not available</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+</body>
+<footer>
+    <div id = messageLine>
+        <marquee>this is meassage</marquee>
+    </div>
+</footer>
+</html>
